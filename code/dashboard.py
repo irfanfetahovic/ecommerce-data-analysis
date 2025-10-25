@@ -150,6 +150,7 @@ with sales_tabs[1]:
         x='Month',
         y='Revenue',
         color='Country',
+        category_orders={'Country': top_countries},
         title='Monthly Sales by Top 10 Countries',
         labels={'Revenue': 'Sales ($)'}
     )
@@ -212,11 +213,13 @@ col1, col2 = st.columns(2)
 # Customer orders distribution
 with col1:
     customer_orders = filtered_df.groupby('CustomerID')['InvoiceNo'].nunique()
+    customer_orders.name = "Number of Orders"
     fig_customer_orders = px.histogram(
         customer_orders,
         title='Distribution of Orders per Customer',
         labels={'value': 'Number of Orders', 'count': 'Number of Customers'}
     )
+    fig_customer_orders.update_yaxes(title_text="Number of Customers")
     st.plotly_chart(fig_customer_orders, use_container_width=True)
 
 # Correlation heatmap
