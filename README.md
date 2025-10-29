@@ -77,7 +77,7 @@ streamlit run dashboard.py
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/username/repo.git
+   git clone https://github.com/irfanfetahovic/ecommerce-data-analysis.git
    cd repo
    ```
 2. Install dependencies:
@@ -97,6 +97,8 @@ streamlit run dashboard.py
    ```bash
    streamlit run dashboard.py
    ```
+   or click the following link: 
+   https://irfanfetahovic-ecommerce-data-analysis-codedashboard-m1y05z.streamlit.app/
 
 
 
@@ -120,6 +122,6 @@ This project is licensed under the MIT License.
 
 👤 **Author:** Irfan Fetahović  
 📧 **Email:** [irfanfetahovic@gmail.com](mailto:irfanfetahovic@gmail.com)  
-💼 **Portfolio:** [GitHub](https://github.com/irfanfetahovic) | [LinkedIn](https://linkedin.com/in/irfanfetahovic)
+💼 **Portfolio:** [GitHub](https://github.com/irfanfetahovic) | [LinkedIn](https://www.linkedin.com/in/irfan-fetahovic-28473923/)
 
 
