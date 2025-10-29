@@ -67,9 +67,13 @@ An interactive Streamlit app built for visual exploration of sales and customer 
 - Compare customer distribution by country
 
 **Run the dashboard**
+
+To run the dashboard on your local machine, execute:
 ```bash
 streamlit run dashboard.py
 ```
+You can also access the dashboard directly in your browser without running it locally:
+[Streamlit App](https://irfanfetahovic-ecommerce-data-analysis-codedashboard-m1y05z.streamlit.app/)
 
 
 
@@ -78,7 +82,7 @@ streamlit run dashboard.py
 
    ```bash
    git clone https://github.com/irfanfetahovic/ecommerce-data-analysis.git
-   cd repo
+   cd ecommerce-data-analysis
    ```
 2. Install dependencies:
 
@@ -97,9 +101,7 @@ streamlit run dashboard.py
    ```bash
    streamlit run dashboard.py
    ```
-   or click the following link: 
-   https://irfanfetahovic-ecommerce-data-analysis-codedashboard-m1y05z.streamlit.app/
-
+ 
 
 
 ## Project Structure
