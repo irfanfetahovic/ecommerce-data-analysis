@@ -93,6 +93,7 @@ You can also access the dashboard directly in your browser without running it lo
 4. Open and run the Jupyter Notebook:
 
    ```bash
+   cd notebooks
    jupyter notebook eda.ipynb
    ```
 5. Run all cells to explore data, visualizations, and insights
@@ -107,7 +108,7 @@ You can also access the dashboard directly in your browser without running it lo
 ## Project Structure
 
 ```bash
-/project-folder
+/ecommerce-data-analysis
 ├── data/                    # dataset
 ├── notebooks/               # Jupyter notebooks
 ├── dashboard.py             # Streamlit app
