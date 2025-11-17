@@ -1,6 +1,6 @@
 # Customer Segmentation & Sales Insights – E-Commerce Data
 
-![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 <!-- ![Dashboard Preview](images/dashboard_preview.png) -->
 
@@ -40,12 +40,12 @@ This project demonstrates data analytics using an E-Commerce customer dataset. T
 This project demonstrates the ability to analyze e-commerce data, segment customers, and visualize trends using Python.
 
 **Key Insights**
-- **Top Products:** The 10 most purchased products are clearly identified, helping prioritize inventory or promotions.  
+- **Top Products:** Top 10 product analysis helps identify products to promote or stock up on, thus potentially increasing revenue.  
 - **Monthly Sales Trends:** Revenue trends over time reveal growth patterns and seasonal changes.  
 - **Customer Distribution:** The top countries by customer count and revenue are identified.  
 - **Customer Segments:** RFM analysis visualizes segments based on Recency, Frequency, and Monetary value.  
 - **Time-based Patterns:** Sales by hour or day-of-week provide insights into customer purchasing behavior.
-- **Customer Retention:** Cohort analysis shows how customers from each month behave over time, revealing retention trends and repeat purchase patterns.
+- **Customer Retention:** Cohort analysis shows how customers behave over time, which could be important information for loyalty programs or retention campaigns.
 
 
 
@@ -59,21 +59,12 @@ This project demonstrates the ability to analyze e-commerce data, segment custom
 
 
 ## Interactive Dashboard
-An interactive Streamlit app built for visual exploration of sales and customer insights.
+An interactive [Streamlit app] (https://irfanfetahovic-ecommerce-data-analysis-codedashboard-m1y05z.streamlit.app/) built for visual exploration of sales and customer insights.
 
 **Features**
 - View monthly sales trends
 - Explore top-selling products
 - Compare customer distribution by country
-
-**Run the dashboard**
-
-To run the dashboard on your local machine, execute:
-```bash
-streamlit run dashboard.py
-```
-You can also access the dashboard directly in your browser without running it locally:
-[Streamlit App](https://irfanfetahovic-ecommerce-data-analysis-codedashboard-m1y05z.streamlit.app/)
 
 
 
@@ -81,8 +72,8 @@ You can also access the dashboard directly in your browser without running it lo
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/irfanfetahovic/ecommerce-data-analysis.git
-   cd ecommerce-data-analysis
+   git clone https://github.com/username/repo.git
+   cd repo
    ```
 2. Install dependencies:
 
@@ -93,7 +84,6 @@ You can also access the dashboard directly in your browser without running it lo
 4. Open and run the Jupyter Notebook:
 
    ```bash
-   cd notebooks
    jupyter notebook eda.ipynb
    ```
 5. Run all cells to explore data, visualizations, and insights
@@ -102,13 +92,13 @@ You can also access the dashboard directly in your browser without running it lo
    ```bash
    streamlit run dashboard.py
    ```
- 
+
 
 
 ## Project Structure
 
 ```bash
-/ecommerce-data-analysis
+/project-folder
 ├── data/                    # dataset
 ├── notebooks/               # Jupyter notebooks
 ├── dashboard.py             # Streamlit app
@@ -125,6 +115,6 @@ This project is licensed under the MIT License.
 
 👤 **Author:** Irfan Fetahović  
 📧 **Email:** [irfanfetahovic@gmail.com](mailto:irfanfetahovic@gmail.com)  
-💼 **Portfolio:** [GitHub](https://github.com/irfanfetahovic) | [LinkedIn](https://www.linkedin.com/in/irfan-fetahovic-28473923/)
+💼 **Portfolio:** [GitHub](https://github.com/irfanfetahovic) | [LinkedIn](https://linkedin.com/in/irfanfetahovic)
 
 
