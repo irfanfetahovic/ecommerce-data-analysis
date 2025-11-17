@@ -59,7 +59,7 @@ This project demonstrates the ability to analyze e-commerce data, segment custom
 
 
 ## Interactive Dashboard
-An interactive [Streamlit app] (https://irfanfetahovic-ecommerce-data-analysis-codedashboard-m1y05z.streamlit.app/) built for visual exploration of sales and customer insights.
+An interactive [Streamlit app](https://irfanfetahovic-ecommerce-data-analysis-codedashboard-m1y05z.streamlit.app/) built for visual exploration of sales and customer insights.
 
 **Features**
 - View monthly sales trends
