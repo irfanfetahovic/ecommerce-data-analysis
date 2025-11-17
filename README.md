@@ -2,9 +2,11 @@
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
-<!-- ![Dashboard Preview](images/dashboard_preview.png) -->
 
-A complete data analytics project featuring data cleaning, exploratory data analysis, customer segmentation (RFM), and an interactive Streamlit dashboard.
+A complete data analytics project featuring data cleaning, exploratory data analysis, customer segmentation (RFM), and an interactive Streamlit dashboard. The project helps e-commerce businesses identify high-value customers, optimize inventory, and improve sales through data-driven insights.
+
+
+![Dashboard Preview](images/dashboard_preview.png)
 
 
 
@@ -27,6 +29,7 @@ This project demonstrates data analytics using an E-Commerce customer dataset. T
 - **Size:** ~500k rows, multiple countries  
 
 
+
 ## Project Workflow
 1. **Data Cleaning:** Removed missing values, negative quantities, and duplicates; created `TotalPrice` for revenue analysis.  
 2. **Exploratory Data Analysis (EDA):** Identified sales trends, top products, and customer distribution.  
@@ -39,23 +42,24 @@ This project demonstrates data analytics using an E-Commerce customer dataset. T
 ## Insights & Impact
 This project demonstrates the ability to analyze e-commerce data, segment customers, and visualize trends using Python.
 
-**Key Insights**
-- **Top Products:** Top 10 product analysis helps identify products to promote or stock up on, thus potentially increasing revenue.  
+### Key Insights
+- **Top Products:** Top 10 product analysis helps identify products to promote or stock up on, thus potentially increasing revenue. 
+
+    <img src="images/top10.png" width="500">
+
 - **Monthly Sales Trends:** Revenue trends over time reveal growth patterns and seasonal changes.  
 - **Customer Distribution:** The top countries by customer count and revenue are identified.  
-- **Customer Segments:** RFM analysis visualizes segments based on Recency, Frequency, and Monetary value.  
+
+   <img src="images/top10countries.png" width="500">
+
+- **Customer Segments:** RFM analysis visualizes segments based on Recency, Frequency, and Monetary value. 
+    
+    <img src="images/rfm.png" width="500">
+
 - **Time-based Patterns:** Sales by hour or day-of-week provide insights into customer purchasing behavior.
 - **Customer Retention:** Cohort analysis shows how customers behave over time, which could be important information for loyalty programs or retention campaigns.
-
-
-
-## Skills Demonstrated
-- Data cleaning & preprocessing  
-- Exploratory and statistical analysis  
-- Data visualization (Matplotlib, Seaborn)  
-- Customer segmentation & retention analysis (RFM, Cohort)  
-- Streamlit dashboard development
-
+   
+   <img src="images/cohort.png" width="500">
 
 
 ## Interactive Dashboard
